@@ -1,0 +1,43 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor and IDE files
+*.swp
+*~
+.vscode/
+.idea/
+
+# Ignore compiled and binary files
+*.class
+*.jar
+*.war
+*.ear
+*.dll
+*.exe
+*.so
+*.o
+
+# Ignore build output directories
+/target/
+/bin/
+/build/
+
+# Ignore dependencies and package managers
+node_modules/
+/vendor/
+
+# Ignore logs and temporary files
+/logs/
+/tmp/
+*.log
+
+# Ignore sensitive or environment-specific information
+.env
+.env.local
+.env.*.local
+.env.*.production
+
+# Ignore personal or user-specific files
+config.json
+secrets.yaml
